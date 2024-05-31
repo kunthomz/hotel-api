@@ -1,0 +1,14 @@
+Request URL: https://api.test.hotelbeds.com/hotel-content-api/1.0/hotels
+Request Headers: Array
+(
+    [0] => Accept: application/json
+    [1] => Api-Key: b0689713818666de7a176166f60d688a
+    [2] => X-Signature: 4aa5bd3b38913b7427282e0a344953c074d77d505e7cea94cf1b54d0582b314d
+    [3] => Content-Type: application/json
+    [4] => Accept-Encoding: gzip
+)
+
+Request Data: "{\r\n            \"stay\": {\r\n              \"checkIn\": \"2024-06-15\",\r\n              \"checkOut\": \"2024-06-16\"\r\n            },\r\n            \"occupancies\": [\r\n              {\r\n                \"rooms\": 1,\r\n                \"adults\": 2,\r\n                \"children\": 0\r\n              }\r\n            ],\r\n            \"hotels\": {\r\n              \"hotel\": [77,168,264,265,297,311]\r\n            }\r\n        }"
+Response: {
+    "error": "Access to this resource has been disallowed"
+}
