@@ -103,7 +103,7 @@ $data = hotels();
             </form>
         </div>
 
-        <h2>Featured Hotels</h2>
+        <h2>All Hotels</h2>
 
         <?php if (!empty($data['hotels'])) { ?>
             <div class="hotel-list">
